@@ -5,7 +5,7 @@
 define('DB_Host','localhost');
 define('DB_User','root');
 define('DB_Pass','');
-define('DB_Name','carnet');
+define('DB_Name','SharePosts');
 
 
 
@@ -20,7 +20,7 @@ define('URLROOT','http://127.0.0.1/mvc');
 
 // site Name
 
-define('SITENAME','MVC');
+define('SITENAME','Share Your Posts');
 
 
 
