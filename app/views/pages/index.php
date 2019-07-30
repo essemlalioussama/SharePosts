@@ -1,7 +1,14 @@
 <?php require APPROOT.'/views/inc/header.php'; ?>
-<h1> Bonjour 
-    <?php 
-        echo $data['title'].'+'.$data['cin']; 
-        ?>
-</h1>
+
+.<div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+        <h1 class="display-3"><?php  echo $data['title']; ?></h1>
+        <hr class="my-2">
+        <p class="lead">
+        <?php  echo $data['description']; ?>
+        </p>
+    </div>
+</div>    
+
+
 <?php require APPROOT.'/views/inc/footer.php'; ?>
