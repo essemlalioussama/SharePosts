@@ -3,6 +3,11 @@
 
 require_once 'config/config.php';
 
+
+//load heplers
+
+require_once 'helpers/url_helpers.php';
+
 // load libraries
 
 // require_once 'libraries/Core.php';

@@ -8,12 +8,12 @@
 
             <h1>Login</h1>
             <p>Please fill in your informations  to login in </p>
-            <form action="<?php echo URLROOT; ?>/users/login" method="post">
+            <form action="<?php echo URLROOT; ?>/users/login" method="POST">
 
                 <div class="form-group">
                     <label for="email"> Email : <sup>*</sup></label>
-                    <input type="email" name="email " id="email"
-                        class="form-control  form-control-lg <?php echo (!empty($data['email_err']) ? 'is_invalid' : '') ?>"
+                    <input type="email" name="email" id="email"
+                        class="form-control  form-control-lg <?php echo (!empty($data['email_err']) )? 'is-invalid' : ''; ?>"
                         placeholder="">
                     <span class="invalid-feedback"><?php echo $data['email_err'] ?></span>
 
@@ -23,7 +23,7 @@
                 <div class="form-group">
                     <label for="Password"> Password : <sup>*</sup></label>
                     <input type="Password" name="password" id="password"
-                        class="form-control  form-control-lg <?php echo (!empty($data['password_err']) ? 'is_invalid' : '') ?>"
+                        class="form-control  form-control-lg <?php echo (!empty($data['password_err']) )? 'is-invalid' : '' ; ?>"
                         placeholder="">
                     <span class="invalid-feedback"><?php echo $data['password_err'] ?></span>
 
